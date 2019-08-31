@@ -1,4 +1,4 @@
-# flutter Navigation
+# Flutter Navigation
 
 Flutter drawer navigation with Charts, Google maps, Calendar and Timeline
 
