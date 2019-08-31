@@ -1,16 +1,14 @@
-# f_nav
+# flutter Navigation
 
-Flutter navigation app
+Flutter drawer navigation with Charts, Google maps, Calendar and Timeline
 
-## Getting Started
+![demo](https://raw.githubusercontent.com/asifsha/flutter-nav/master/demo/demo.gif)
 
-This project is a starting point for a Flutter application.
+## Libraries Used
+- [Calendar](https://pub.dev/packages/flutter_calendar_carousel)
+- [Charts](https://pub.dev/packages/charts_flutter)
+- [Time line list](https://pub.dev/packages/timeline_list)
+- [Map](https://pub.dev/packages/google_maps_flutter)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Use?
+Clone this repo, and open with Android Studio, install packages and run
