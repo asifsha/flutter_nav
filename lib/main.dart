@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
       theme : ThemeData(
         // Define the default brightness and colors.
         brightness: Brightness.dark,
-        primaryColor: Colors.lightBlue[800],
-        accentColor: Colors.cyan[600],
+        primaryColor: Colors.pink[900],
+        accentColor: Colors.pink[600],
 
         // Define the default font family.
         fontFamily: 'Montserrat',

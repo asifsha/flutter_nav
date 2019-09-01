@@ -15,57 +15,36 @@ class AppDrawer extends StatelessWidget {
             DrawerHeader(
               child: Text('Drawer Header'),
               decoration: BoxDecoration(
-                color: Colors.lightBlue[800],
+                color: Colors.pink[900],
               ),
             ),
             ListTile(
               title: Text('Home'),
               onTap: () {
-                // Update the state of the app
-                // ...
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(builder: (context) => SecondRoute()),
-                // );
                 Navigator.pushReplacementNamed(context, Routes.home);
-                // Then close the drawer
-                //Navigator.pop(context);
               },
             ),
             ListTile(
               title: Text('Charts'),
               onTap: () {
-                // Update the state of the app
-                // ...
-                // Then close the drawer
                 Navigator.pushReplacementNamed(context, Routes.charts);
-                print("Charts Tapped");
               },
             ),
             ListTile(
               title: Text('Timeline'),
               onTap: () {
-                // Update the state of the app
-                // ...
-                // Then close the drawer
                 Navigator.pushReplacementNamed(context, Routes.timeline);
               },
             ),
             ListTile(
               title: Text('Map'),
               onTap: () {
-                // Update the state of the app
-                // ...
-                // Then close the drawer
                 Navigator.pushReplacementNamed(context, Routes.map);
               },
             ),
             ListTile(
               title: Text('Calendar'),
               onTap: () {
-                // Update the state of the app
-                // ...
-                // Then close the drawer
                 Navigator.pushReplacementNamed(context, Routes.calendar);
               },
             ),
