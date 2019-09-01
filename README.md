@@ -1,8 +1,8 @@
-# flutter Navigation
+# Flutter Navigation
 
 Flutter drawer navigation with Charts, Google maps, Calendar and Timeline
 
-![demo](https://raw.githubusercontent.com/asifsha/flutter-nav/master/demo/demo.gif)
+![demo](https://raw.githubusercontent.com/asifsha/flutter_nav/master/demo/demo.gif)
 
 ## Libraries Used
 - [Calendar](https://pub.dev/packages/flutter_calendar_carousel)
