@@ -15,7 +15,7 @@ class AppDrawer extends StatelessWidget {
             DrawerHeader(
               child: Text('Drawer Header'),
               decoration: BoxDecoration(
-                color: Colors.blue,
+                color: Colors.lightBlue[800],
               ),
             ),
             ListTile(
@@ -39,6 +39,7 @@ class AppDrawer extends StatelessWidget {
                 // ...
                 // Then close the drawer
                 Navigator.pushReplacementNamed(context, Routes.charts);
+                print("Charts Tapped");
               },
             ),
             ListTile(
